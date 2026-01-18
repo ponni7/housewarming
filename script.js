@@ -1,6 +1,6 @@
 // --- 1. Countdown Timer Functionality ---
-// Target date and time for the housewarming (December 10, 2025, 05:00:00 AM)
-const housewarmingDate = new Date("December 10, 2025 05:00:00").getTime();
+// Target date and time for the housewarming (March 8, 2026, 05:00:00 AM)
+const housewarmingDate = new Date("March 8, 2026 05:00:00").getTime();
 
 const countdownTimer = setInterval(function() {
     const now = new Date().getTime();
@@ -38,7 +38,7 @@ const countdownTimer = setInterval(function() {
 // --- 2. Google Maps Functionality (Inline Map & Directions Link) ---
 const mapLink = document.getElementById('map-link');
 const mapContainer = document.getElementById('inline-map');
-const destinationAddress = "Flat PG01, Block 4, Casagrand Utopia, Manapakkam, Chennai - 600125, Tamilnadu"; 
+const destinationAddress = "Flat PG06, Block 4, Casagrand Utopia, Manapakkam, Chennai - 600125, Tamilnadu"; 
 // Sanitize address for use in URL query parameters
 const sanitizedAddress = destinationAddress.replace(/,/g, '').replace(/\s/g, '+');
 
@@ -60,7 +60,7 @@ function displayInlineMap() {
                 marginheight="0" 
                 marginwidth="0"
                 src="${mapEmbedUrl}"
-                title="Location of Mithraalaiyam"
+                title="Location of Sai Illam"
                 allowfullscreen="" 
                 loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade"
