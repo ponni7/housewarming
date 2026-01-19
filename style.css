@@ -72,7 +72,7 @@ section {
 .invitation-text {
     font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
     font-size: 2.5em; /* Smaller as requested */
-    color: white;
+    color: pink;
     text-shadow: 2px 2px 4px #000;
     margin-bottom: 0;
     margin-top: -10%;
@@ -80,7 +80,8 @@ section {
 /* 2. "Mithraalaiyam" (Pushed down low) */
 .house-name-hero {
     font-size: 3.5em; 
-    color: white;
+    color: orange;
+    font-weight: bold;
     text-shadow: 2px 2px 4px #000;
 }
 
